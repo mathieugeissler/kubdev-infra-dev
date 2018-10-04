@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
         - name: kubedev-node-server-a
-          image: 'gcr.io/kubdev-218309/kubdev-node-server-a'
+          image: gcr.io/kubdev-218309/kubdev-node-server-a@sha256:cced68333424b5e7eeb5273e9601bd7bced0dec3276037222974e6fdf80fec36
           ports:
             - containerPort: 8080
 
